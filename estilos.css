@@ -1,0 +1,209 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;	
+	background: #a5a5a5;
+}
+
+/* * ============================== */
+/* * ============ HEADER ========== */
+/* * ============================== */
+
+.navbar {
+	background: #D46401;
+	position: sticky;
+	top: 0;
+}
+
+.navbar a {
+	color: #E7D36D;
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	transition: .3s ease-out all;
+}
+
+.navbar a:hover {
+	background: #070066;
+	color: #fff;
+	text-decoration: none;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* * ============================== */
+/* * ===== CONTENEDOR IMAGEN ====== */
+/* * ============================== */
+
+.contenedor-imagen {
+	height: 31vh;
+}
+
+.contenedor-imagen img {
+	width: 100%;
+	height: 300px;
+	vertical-align: top;
+	object-fit: cover;
+	object-position: 0 bottom;
+}
+.contenedor-imagen1 img {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	object-fit: cover;
+	object-position: 0 bottom;
+}
+.contenedor-escandalosos1{
+
+	height: 100%;
+	padding: 24px;
+	border-radius: 3px;
+	position:relative;
+	top: 5px;
+
+}
+/* * ============================== */
+/* * ============ MAIN ============ */
+/* * ============================== */
+
+main {
+	min-height: 100vh;
+}
+
+main .contenido p {
+	margin-bottom: 20px;
+	line-height: 30px;
+	color: #000000;
+}
+
+main .contenido .titulo {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	padding-top: 40px;
+	color: #ffffff;
+}
+
+main .contenido .fecha {
+	font-size: 14px;
+	color: #ffffff;
+}
+
+/* * ============================== */
+/* * ============ ASIDE =========== */
+/* * ============================== */
+
+aside {
+	min-width: 30%;
+	margin: 40px 20px 20px 0;
+	height: 100%;
+
+	padding: 20px;
+	border-radius: 3px;
+	position: sticky;
+	top: 20px;
+	margin:;
+	text-align: center;
+}
+
+
+aside .titulo {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #ffffff;
+	position: relative;
+	top: 0px;
+	left: ;
+
+	
+}
+
+aside .indice a {
+	display: block;
+	margin-bottom: 10px;
+	color: #ffffff;
+		position: relative;
+	top: 0px;
+	left: ;	position: relative;
+	top: 0px;
+	left: ;
+}
+
+/* * ============================== */
+/* * ========== FOOTER ============ */
+/* * ============================== */
+footer .navbar{
+	position: sticky;
+	bottom: 0;
+
+}
+
+
+
+/* * ============================== */
+/* * ====== MEDIA QUERIES ========= */
+/* * ============================== */
+@media screen and (max-width: 900px){
+	.navbar .contenedor {
+		flex-wrap: wrap;
+		margin: 0;
+		width: 100%;
+	}
+
+	.navbar a {
+		width: auto;
+		flex: 1;
+	}
+
+	.contenedor-imagen {
+		height: 50vh;
+	}
+
+	main .contenedor {
+		flex-direction: column;
+		position: relative;
+		top: 0px;
+		left: -400px;
+	}
+}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lato:wght@300&display=swap');
+.osos-che {
+	text-align: center;
+	font-size: x-large;
+	font-family: 'Comfortaa', cursive;
+    font-family: 'Lato', sans-serif;
+	font-size: 60px;
+	background-color: #E7D36D;
+
+	color: #ffffff;
+	padding: 30px;
+
+
+}
+/**MENUSIMPLE**/
+
+
+
+

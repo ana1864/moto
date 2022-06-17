@@ -1,0 +1,139 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+   
+  }
+  
+  .form-register {
+    width: 400px;
+    height: 490px;
+    background: #EE3604;
+    padding: 80px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ffffff;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #2d2b2b;
+    border: none;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  .form-register h4{
+    padding: 0px;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+.inicio1{
+  max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	height: 10vh;
+	justify-content: space-between;
+  background: #ffd000;
+
+	top: 0;
+
+
+
+	text-align: center;
+	font-size: x-large;
+	font-family: 'Comfortaa', cursive;
+	font-size: 60px;
+	background-color: #5c5c5c;
+
+	color: #ffd000;
+	padding: 30px;
+
+
+  }
+
+  .navbar {
+    background: #002e6b;
+    position: sticky;
+    top: 0;
+  }
+  
+  .navbar a {
+    color: #5c5c5cd8;
+    display: inline-block;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    transition: .3s ease-out all;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+  .navbar a:hover {
+    background: #070066;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contenedor {
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    outline: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
